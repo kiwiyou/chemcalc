@@ -1,0 +1,66 @@
+header {
+    text-align: center;
+}
+#fields {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+#fields > div {
+    flex: 1;
+    max-width: 300px;
+}
+#fields header {
+    font-size: 1.3rem;
+}
+object.right-arrow::after {
+    content: '→';
+}
+.chemical {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.chemical a {
+    transition: 0.5s;
+    cursor: grab;
+}
+.chemical a:hover {
+    color: red;
+}
+.editing {
+    display: flex;
+    margin: 10px;
+}
+.editing > input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid black;
+    border-right-style: none;
+    border-radius: 10px 0 0 10px;
+    min-width: 0;
+    font-size: 1rem;
+}
+.editing > button {
+    border: 2px solid black;
+    border-radius: 0 10px 10px 0;
+    font-size: 1rem;
+}
+.add {
+    border: 2px solid black;
+    border-radius: 10px;
+    align-self: stretch;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1rem;
+}
+footer {
+    display: flex;
+    align-items: center;
+}
+footer div {
+    flex: 0;
+}
